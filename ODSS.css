@@ -1,0 +1,203 @@
+html .body {
+    margin: 0;
+}
+
+#capa {
+    background: url("img/3.jpg");
+    text-align: center;
+    height: 100%;
+    background-size: cover;
+}
+
+body {
+    background-color: rgba(218, 156, 74, 0.411);
+    meta name="viewport" content="width=device-width", "initial-scale=1.0">font-family: 'Gayathri', sans-serif;
+}
+
+#section {
+    background-color: rgba(218, 139, 74, 0.288);
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.coluna {
+    float: left;
+    padding: 20 5%;
+    position: relative;
+}
+
+.um {
+    width: 40%;
+}
+
+.dois {
+    width: 15%;
+    padding: 30px;
+}
+
+h1 {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif text-align: center;
+    font-size: 60px;
+    padding-top: 15%;
+}
+
+h2 {
+    color: rgba(247, 213, 213, 0.884);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif letter-spacing: 0mm;
+    font-size: 35px;
+}
+
+#ods {
+    color: rgba(238, 192, 192, 0.884);
+    border: 2px solid;
+    border-radius: 0.8rem;
+    padding: 10px 10px 10px 10px;
+}
+
+h3 {
+    color: maroon;
+    font-family: 'Gayathri', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+p {
+    color: rgb(68, 10, 54);
+    font-family: 'Gayathri', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+h4 {
+    color: maroon;
+    ;
+    font-family: 'Gayathri', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.icone {
+    width: 51px;
+    margin: 15px;
+}
+
+a {
+    text-decoration: underline;
+    color: maroon;
+}
+
+#t1 {
+    width: 550px;
+    height: 335, 5px;
+    border: 3px rgba(218, 155, 74, 0.541) dotted;
+    padding: 7px;
+}
+
+#v1 {
+    border: 3px rgba(218, 155, 74, 0.541) dotted;
+    padding: 7px;
+    margin: 10px;
+}
+
+.borda {
+    border: 15px;
+    padding: 6px;
+    margin: 10px
+}
+
+.borda2 {
+    border: 15px;
+    padding: 6px;
+    margin: 10px
+}
+
+.justificado {
+    text-align: justify;
+}
+
+.centro {
+    text-align: center;
+}
+
+header {
+    background-color: rgb(59, 15, 9);
+    color: rgb(255, 255, 255);
+    height: 96px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+#logo {
+    width: 80px;
+    position: absolute;
+    top: 10px;
+    margin-left: 2.5%;
+}
+
+#menu {
+    float: right;
+    list-style: none;
+    color: white;
+}
+
+li {
+    float: left;
+    padding: 20px 10px 20px 10px;
+    margin-right: 20px;
+}
+
+li:hover {
+    background-color: rgb(155, 39, 23);
+}
+
+h5 {
+    color: maroon;
+    ;
+    font-family: 'Gayathri', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+}
+
+p1 {
+    color: rgb(68, 10, 54);
+    font-family: 'Gayathri', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    padding-top: 2px;
+}
+
+footer {
+    background-color: rgba(204, 49, 29, 0.37);
+    float: left;
+    width: 100%;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+#a2 {
+    color: white;
+}
+#f1 {
+    width: 15%;
+    float: right;
+    padding-right: 100px;
+    
+}
+@media screen and (max-width:800px) {
+    div {
+        width: 100%;
+    }
+    body {
+        font-size: 2vw;
+    }
+    #capa0 {
+        visibility: hidden;
+    }
